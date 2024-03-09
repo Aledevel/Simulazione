@@ -8,17 +8,17 @@
 
 interface Country {
     name: string;
-    languages: unknown;
+    languages: any;
 }
 
-const languagesObj1: Country<string> = {
+const languagesObj1: Country = {
     name: "New Zealand",
     languages: "English, Māori"
 };
 
 console.log(languagesObj1.languages);
 
-const languagesObj2: Country<string[]> = {
+const languagesObj2: Country = {
     name: "Spain",
     languages: ["Spanish", "Catalan", "Galician", "Basque", "Valencian"],
 };

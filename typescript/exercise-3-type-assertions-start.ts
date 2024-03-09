@@ -2,7 +2,7 @@
  * START: Follow the instructions below.
  */
 
-function getPopulation(): any {
+function getPopulation(): number {
     return 69_950_850;
 }
 
@@ -14,7 +14,6 @@ const population = getPopulation();
 // Now you've added a type assertion, there's a type error in the code below.
 // Remove the code that is incorrect.
 
-console.log(population.toUpperCase());
 
 console.log(population * 2);
 
